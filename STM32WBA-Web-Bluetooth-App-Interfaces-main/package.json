@@ -1,0 +1,58 @@
+{
+  "homepage": "https://flestm.github.io/Web_Bluetooth_App_WBA_Cln/",
+  "name": "web-bluetooth-app",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@cdot/cbor": "^1.0.5",
+    "@popperjs/core": "^2.11.5",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.1.3",
+    "boxicons": "^2.1.4",
+    "buffer": "^6.0.3",
+    "cbor": "^9.0.2",
+    "cbor-web": "^9.0.2",
+    "chart.js": "^3.7.1",
+    "commander": "^12.0.0",
+    "cors": "^2.8.5",
+    "crc": "^4.3.2",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.3.1",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.4",
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run --passWithNoTests"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "gh-pages": "^6.3.0",
+    "marked": "^4.2.4",
+    "vite": "^8.0.8",
+    "vitest": "^4.1.1"
+  }
+}
